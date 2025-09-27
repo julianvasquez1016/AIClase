@@ -24,6 +24,6 @@ def diabetes_prediction(data: PatientData):
 
     prediction = model.predict(xin)
 
-    print("prediction ", prediction)
+    print("prediccion ", prediction)
 
     return labels[prediction[0]]
